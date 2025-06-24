@@ -3,4 +3,4 @@ project(CISCO_Learnig)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CISCO_Learnig main.cpp)
+add_executable(CISCO_Learnig main.cpp person.cpp)
