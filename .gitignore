@@ -1,0 +1,36 @@
+# === C++ build artifacts ===
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# === CMake build folders ===
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+out/
+
+# === CLion (JetBrains) ===
+.idea/
+*.iml
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs and other ===
+*.log
+*.tmp
